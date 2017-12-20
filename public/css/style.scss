@@ -38,8 +38,12 @@ header > article {
   border-bottom: 1px solid black;
 }
 
-header > article > h2 {
+header > article > h2, #finalbuy > article > h2 {
   font-size: 5em;
+}
+
+#finalbuy > article > h2 {
+  border-top: 1px solid $silver;
 }
 
 a {
@@ -48,13 +52,13 @@ a {
 }
 
 footer {
-  margin-top: 15%;
+  margin-top: 5%;
   margin-bottom: 2%;
   padding-top: 1%;
   border-top: 1px solid $silver;
 }
 
-h1, #title, i, .c7-display, button, .price:hover, i:hover, a:hover, h1:hover  {
+h1, #title, i, .c7-display, button, .price:hover, i:hover, a:hover, h1:hover, #color-options, #finalbuy > article > h2:hover  {
   cursor: pointer;
 }
 
@@ -138,7 +142,7 @@ button {
   color: $darkslategray;
 }
 
-.price:hover, i:hover, a:hover {
+.price:hover, i:hover, a:hover, #color-options:hover, #finalbuy > article > h2:hover {
   color: $darkslateblue;
 }
 
@@ -183,6 +187,10 @@ button {
 
   article {
     padding: 0 10%;
+  }
+
+  #finalbuy > article > img {
+    max-height: 100px;
   }
 
 }
