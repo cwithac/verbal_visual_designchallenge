@@ -1,8 +1,16 @@
+//Color Variables
+$silver : #c4c4c4;
+
 .slideshowSlide {
-  border: 1px solid red;
+  border: 2px solid $silver;
+  border-radius: 5px;
   display: none;
   min-height: 350px;
   text-align: center;
+}
+
+button {
+  margin-top: 5px;
 }
 
 #specifications {

@@ -1,8 +1,12 @@
 .slideshowSlide {
-  border: 1px solid red;
+  border: 2px solid #c4c4c4;
+  border-radius: 5px;
   display: none;
   min-height: 350px;
   text-align: center; }
+
+button {
+  margin-top: 5px; }
 
 #specifications {
   width: 50%;
