@@ -12,22 +12,22 @@
   <body>
     <header>
       <h1>Lundqvist & Svestrom</h1>
-    </header>
-    <section>
-      <article class="">
-        <h2>C7</h2>
-        <p>Updating a modern classic with an innovative user interface and integration of more digital services</p>
-        <span>USD 2,699 <i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
-      </article>
-      <article class="">
-        <h3>Beautiful from all angles</h3>
-        <p>The C7 is designed and crafted like a beautiful piece of furniture – with a careful selection of materials and a great attention to detail. The days of wanting to hide your bulky black stereo are over. No matter where you choose to place the C7, it's going to look beautiful.</p>
-      </article>
       <img class="c7-display" src="images/02.jpg" alt="02">
       <img class="c7-display" src="images/05.jpg" alt="05">
       <img class="c7-display" src="images/07.jpg" alt="07">
       <img class="c7-display" src="images/09.jpg" alt="09">
       <img class="c7-display" src="images/12.jpg" alt="12">
+      <article class="">
+        <h2>C7</h2>
+        <p>Updating a modern classic with an innovative user interface and integration of more digital services</p>
+        <span>USD 2,699 <i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+      </article>
+    </header>
+    <section id="sub-header">
+      <article class="">
+        <h3>Beautiful from all angles</h3>
+        <p>The C7 is designed and crafted like a beautiful piece of furniture – with a careful selection of materials and a great attention to detail. The days of wanting to hide your bulky black stereo are over. No matter where you choose to place the C7, it's going to look beautiful.</p>
+      </article>
       <article class="">
         <h3>Crafting DS C7</h3>
         <p>Ever wondered how a product like DS C7 is built? Join us on a fascinating journey that shows you the crafting
@@ -182,6 +182,20 @@
          x[i].style.display = "none";
       }
       x[slideIndex-1].style.display = "block";
+    }
+
+    let picIndex = 0;
+    carousel();
+
+    function carousel() {
+        const y = document.getElementsByClassName("c7-display");
+        for (i = 0; i < y.length; i++) {
+           y[i].style.display = "none";
+        }
+        picIndex++;
+        if (picIndex > y.length) {picIndex = 1}
+        y[picIndex-1].style.display = "block";
+        setTimeout(carousel, 2000);
     }
 
     </script>

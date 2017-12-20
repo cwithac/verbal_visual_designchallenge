@@ -1,5 +1,17 @@
 body {
-  font-family: 'Open Sans Condensed', sans-serif; }
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center; }
+
+header > img {
+  display: block;
+  margin: 0 auto; }
+
+#sub-header {
+  display: flex; }
+
+#sub-header > article {
+  width: 50%;
+  padding: 3% 10%; }
 
 .slideshowSlide {
   border: 2px solid #c4c4c4;
@@ -8,6 +20,10 @@ body {
   min-height: 350px;
   text-align: center; }
 
+.c7-display {
+  display: none;
+  max-height: 400px; }
+
 button {
   margin-top: 5px; }
 
@@ -15,7 +31,7 @@ button {
   width: 50%;
   margin: 0 auto; }
 
-.c7-display, .c7-colors, img {
+.c7-colors, img {
   max-height: 200px; }
 
 #button-left, #button-right {
