@@ -16,6 +16,6 @@
 - [Google Fonts](https://fonts.google.com/specimen/Open+Sans+Condensed)
 - [CSS Carousel](https://www.w3schools.com/w3css/w3css_slideshow.asp)
 
-![image](https://i.imgur.com/NIHHSii.png)
+![image](https://i.imgur.com/Qm9PJEp.png)
 
 Copy, Images and Design Challenge provided for and by: [Verbal+Visual](http://www.verbalplusvisual.com/).
