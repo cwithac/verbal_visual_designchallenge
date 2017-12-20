@@ -18,4 +18,4 @@
 
 ![image](https://i.imgur.com/NIHHSii.png)
 
-[Verbal+Visual](http://www.verbalplusvisual.com/)
+Copy, Images and Design Challenge provided for and by: [Verbal+Visual](http://www.verbalplusvisual.com/).
