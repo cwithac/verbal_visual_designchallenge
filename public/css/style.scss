@@ -14,6 +14,13 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 3em;
+  padding-bottom: 1%;
+  margin-bottom: 3%;
+  border-bottom: 1px solid $silver;
+}
+
 header > img {
   display: block;
   margin: 0 auto;
@@ -45,7 +52,7 @@ footer {
   margin-bottom: 2%;
 }
 
-h1, #title, i, .c7-display, button, .price:hover, i:hover, a:hover  {
+h1, #title, i, .c7-display, button, .price:hover, i:hover, a:hover, h1:hover  {
   cursor: pointer;
 }
 
@@ -125,7 +132,7 @@ button {
   left: 62%;
 }
 
-.price, i {
+.price, i, h1:hover {
   color: $darkslategray;
 }
 
@@ -133,15 +140,19 @@ button {
   color: $darkslateblue;
 }
 
-@media (max-width: 800px){
-  #sub-header {
+@media (max-width: 850px){
+  #sub-header, header {
     display: block;
   }
 
-  #sub-header > article {
+  #sub-header > article, header > article {
     padding: 5% 0 0 0;
     margin: 0 auto;
     width: 75%;
+  }
+
+  header > article {
+    padding: 5%;
   }
 
   #tech-talk {
