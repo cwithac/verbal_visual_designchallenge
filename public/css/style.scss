@@ -27,6 +27,14 @@ footer {
   margin-top: 15%;
 }
 
+h1, #title, i, .c7-display, button, .price:hover, i:hover, a:hover  {
+  cursor: pointer;
+}
+
+#title {
+  font-size: 2em;
+}
+
 #sub-header {
   display: flex;
 }
@@ -51,6 +59,21 @@ footer {
 .c7-display {
   display: none;
   max-height: 400px;
+  border-radius: 5px;
+}
+
+.c7-colors, img {
+  max-height: 200px;
+  border-radius: 5px;
+}
+
+.c7-colors {
+  opacity: .5;
+}
+
+.c7-colors:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 button {
@@ -61,10 +84,6 @@ button {
 #specifications {
   width: 50%;
   margin: 0 auto;
-}
-
-.c7-colors, img {
-  max-height: 200px;
 }
 
 #button-left, #button-right {
@@ -85,5 +104,4 @@ button {
 
 .price:hover, i:hover, a:hover {
   color: $darkslateblue;
-  cursor: pointer;
 }
