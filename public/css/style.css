@@ -58,4 +58,11 @@ button {
 #button-right {
   left: 62%; }
 
+.price, i {
+  color: #384a52; }
+
+.price:hover, i:hover {
+  color: #3f627c;
+  cursor: pointer; }
+
 /*# sourceMappingURL=style.css.map */

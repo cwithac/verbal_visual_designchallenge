@@ -1,5 +1,7 @@
 //Color Variables
-$silver : #808080;
+$silver: #808080;
+$darkslategray: #384a52;
+$darkslateblue: #3f627c;
 
 * {
   margin: 0;
@@ -75,4 +77,13 @@ button {
 
 #button-right {
   left: 62%;
+}
+
+.price, i {
+  color: $darkslategray;
+}
+
+.price:hover, i:hover {
+  color: $darkslateblue;
+  cursor: pointer;
 }
