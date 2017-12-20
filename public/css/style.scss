@@ -1,6 +1,10 @@
 //Color Variables
 $silver : #c4c4c4;
 
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .slideshowSlide {
   border: 2px solid $silver;
   border-radius: 5px;
