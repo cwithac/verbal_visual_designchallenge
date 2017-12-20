@@ -95,11 +95,11 @@ button {
   .slideshowSlide {
     max-height: 200px; }
 
-  .slideshowSlide > img {
+  .slideshowSlide > img, .c7-colors {
     max-width: 200px; }
 
   #button-left {
-    left: 28%; }
+    left: 24%; }
 
   #button-right {
     left: 70%; }
@@ -109,5 +109,18 @@ button {
 
   article {
     padding: 0 10%; } }
+@media (max-width: 400px) {
+  #sub-header > article {
+    width: 85%; }
+
+  #specifications {
+    max-height: 250px;
+    font-size: .75em; }
+
+  .slideshowSlide > img {
+    max-width: 150px; }
+
+  .c7-colors {
+    opacity: 1; } }
 
 /*# sourceMappingURL=style.css.map */
