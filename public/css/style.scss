@@ -19,6 +19,22 @@ header > img {
   margin: 0 auto;
 }
 
+header {
+  display: flex;
+  align-items: center;
+}
+
+header > article {
+  width: 30%;
+  padding: 1% 1%;
+  margin-right: 3%;
+  border-bottom: 1px solid black;
+}
+
+header > article > h2 {
+  font-size: 5em;
+}
+
 a {
   color: $silver;
   text-decoration: none;
@@ -31,10 +47,6 @@ footer {
 
 h1, #title, i, .c7-display, button, .price:hover, i:hover, a:hover  {
   cursor: pointer;
-}
-
-#title {
-  font-size: 2em;
 }
 
 #sub-header {
