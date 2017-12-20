@@ -1,4 +1,27 @@
 .slideshowSlide {
   border: 1px solid red;
   display: none;
+  min-height: 350px;
+  text-align: center;
+}
+
+#specifications {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.c7-display, .c7-colors, img {
+  max-height: 200px;
+}
+
+#button-left, #button-right {
+  position: absolute;
+}
+
+#button-left {
+  left: 48.5%;
+}
+
+#button-right {
+  left: 51.5%;
 }
