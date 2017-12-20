@@ -80,4 +80,34 @@ button {
 .price:hover, i:hover, a:hover {
   color: #3f627c; }
 
+@media (max-width: 800px) {
+  #sub-header {
+    display: block; }
+
+  #sub-header > article {
+    padding: 5% 0 0 0;
+    margin: 0 auto;
+    width: 75%; }
+
+  #tech-talk {
+    margin-top: 5%; }
+
+  .slideshowSlide {
+    max-height: 200px; }
+
+  .slideshowSlide > img {
+    max-width: 200px; }
+
+  #button-left {
+    left: 28%; }
+
+  #button-right {
+    left: 70%; }
+
+  .c7-display {
+    max-height: 250px; }
+
+  article {
+    padding: 0 10%; } }
+
 /*# sourceMappingURL=style.css.map */
