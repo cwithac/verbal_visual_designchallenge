@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center; }
@@ -5,6 +9,13 @@ body {
 header > img {
   display: block;
   margin: 0 auto; }
+
+a {
+  color: #808080;
+  text-decoration: none; }
+
+footer {
+  margin-top: 15%; }
 
 #sub-header {
   display: flex; }
@@ -14,18 +25,22 @@ header > img {
   padding: 3% 10%; }
 
 .slideshowSlide {
-  border: 2px solid #c4c4c4;
+  color: #808080;
   border-radius: 5px;
   display: none;
   min-height: 350px;
   text-align: center; }
+
+.slideshowSlide > p, .slideshowSlide > h4 {
+  margin-top: 5%; }
 
 .c7-display {
   display: none;
   max-height: 400px; }
 
 button {
-  margin-top: 5px; }
+  margin-top: 5px;
+  padding: 1px 7px 2px; }
 
 #specifications {
   width: 50%;
@@ -38,9 +53,9 @@ button {
   position: absolute; }
 
 #button-left {
-  left: 48.5%; }
+  left: 35%; }
 
 #button-right {
-  left: 51.5%; }
+  left: 62%; }
 
 /*# sourceMappingURL=style.css.map */
