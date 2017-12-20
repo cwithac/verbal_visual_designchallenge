@@ -73,7 +73,7 @@ h1, #title, i, .c7-display, button, .price:hover, i:hover, a:hover {
   cursor: pointer; }
 
 button {
-  margin-top: 5px;
+  margin-top: -25px;
   padding: 1px 7px 2px; }
 
 #specifications {
