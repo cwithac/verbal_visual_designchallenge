@@ -33,62 +33,62 @@
       <h2>TECH TALK</h2>
       <h3>SPECIFICATIONS</h3>
       <section id="specifications">
-        <div class="">
+        <div class="slideshowSlide">
           <h4>DIMENSIONS ON STAND</h4>
           <span>Dimensions on stand</span><br/>
           <span>Diameter x height x footprint</span><br/>
           <span>70.1 x 90.8 x 41.5 cm</span><br/>
           <span>27.6 x 35.8 x 16.3 in</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>DIMENSIONS ON WALL</h4>
           <span>diameter x depth</span><br/>
           <span>70.1 x 21.3 cm</span><br/>
           <span>27.6 x 8.4 in</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>WEIGHT</h4>
           <span>15 kg (incl. legs)</span><br/>
           <span>14.2 kg (without legs)</span><br/>
           <span>33.1 lbs (incl. legs)</span><br/>
           <span>31.5 lbs (without legs)</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>POWER CONSUMPTION</h4>
           <span>Typical 23 watts</span><br/>
           <span>Standby 0.4 watts</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>EFFECTIVE FREQUENCY RANGE</h4>
           <span>33.1 - 25.000 Hz</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>POWER AMPLIFIERS</h4>
           <span>1 x 160 watt class D for bass</span><br/>
           <span>2 x 80 watt class D for midrange</span><br/>
           <span>2 x 80 watt class D for treble</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>DRIVER UNITS</h4>
           <span>1 x 8' woofers</span><br/>
           <span>2 x 3” midrange</span><br/>
           <span>2 x ¾” tweeters</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>CABINET PRINCIPLE</h4>
           <span>Bass-reflex</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>ROOM ADAPTATION</h4>
           <span>Manual position switch, wall, corner and free standing</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>CONNECTIVITY</h4>
           <span>1 x USB iPod/iPhone/iPad connector</span><br/>
           <span>1 x Line-in</span><br/>
           <span>1 x Ethernet</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>WIRELESS CONNECTIVITY</h4>
           <span>WLAN - 802.11b/g/n (2.4GHz & 5GHz)</span><br/>
           <span>Apple AirPlay</span><br/>
@@ -96,41 +96,43 @@
           <span>Bluetooth 4.0</span><br/>
           <span>Google Cast</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>SUPPORTED STREAMING SERVICES</h4>
           <span>Spotify</span><br/>
           <span>TuneIn</span><br/>
           <span>Deezer</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>ON-DEVICE CONTROLS</h4>
           <p>Swipe hand across the top to turn volume up or down. Rest hand on the top sensor for a few seconds to mute sound. Tap to the right to play next track and left to play previous track. Short tap in the centre to initiate last
           played source.</p>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>DESIGNER</h4>
           <span>Øivind Alexander Slaatto</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>BASE COLOUR</h4>
           <span>DS C7 White comes standardly with maple legs</span><br/>
           <span>DS C7 Black comes standardly with walnut legs</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>INCLUDED COVER</h4>
           <span>White or black</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>ADDITIONAL COVER COLOURS</h4>
           <span>Silver, red, green, brown, blue and black</span><br/>
           <span>Covers by Kvadrat</span><br/>
           <span>Light grey, Dark grey, Dark rose and Dusty blue</span>
         </div>
-        <div class="">
+        <div class="slideshowSlide">
           <h4>LEGS AND WALL BRACKET</h4>
           <span>Legs in oak, maple or walnut and wall bracket can be bought as an accessory.</span>
         </div>
       </section>
+      <button onclick="plusDivs(-1)">&#10094;</button>
+      <button onclick="plusDivs(1)">&#10095;</button>
     </section>
     <section>
       <article class="">
@@ -145,5 +147,26 @@
       <h6><a href="#">Privacy Policy </a></h6>
       <h6><a href="#">Terms & Conditions</a></h6>
     </footer>
+    <script>
+
+    //Carousel Functionality
+    let slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      const x = document.getElementsByClassName("slideshowSlide");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (let i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+
+    </script>
   </body>
 </html>
