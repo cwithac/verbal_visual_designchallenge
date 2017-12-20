@@ -61,7 +61,7 @@ button {
 .price, i {
   color: #384a52; }
 
-.price:hover, i:hover {
+.price:hover, i:hover, a:hover {
   color: #3f627c;
   cursor: pointer; }
 
