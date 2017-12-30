@@ -1,4 +1,4 @@
-# Visual Design Challenge
+# Lundqvist & Svestrom
 
 [Hosted on Heroku](https://vvdc.herokuapp.com/)<br>
 [GitHub Repository](https://github.com/cwithac/verbal_visual_designchallenge)
@@ -18,4 +18,6 @@
 
 ![image](https://i.imgur.com/Qm9PJEp.png)
 
-Copy, Images and Design Challenge provided for and by: [Verbal+Visual](http://www.verbalplusvisual.com/).
+
+
+_Visual Design Challenge - Requirements: Design a one page micro site for a new product launch in the USA, the DS C7 speaker. No more than 8 hours.  Copy, Images and Design Challenge provided for and by [Verbal+Visual](http://www.verbalplusvisual.com/)._
